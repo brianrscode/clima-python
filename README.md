@@ -1,5 +1,5 @@
 ## ¡Descubre el clima usando python!
-![preview Image](preview.png)
+![preview Image](https://github.com/brianrscode/clima-python/blob/main/preview.PNG)
 
 ## Instala las nerd fonts o solo una
 
