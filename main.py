@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import argparse
 import requests
 
@@ -5,7 +7,7 @@ import requests
 # Pagina a la que se le hará la petición
 URL_PAGINA = "https://api.openweathermap.org/data/2.5/weather"
 # API KEY obtenida en https://openweathermap.org/api
-API_KEY = ""
+API_KEY = "649195894c39b3432ef154a14429a944"
 
 
 def obtener_region() -> str:
@@ -22,7 +24,7 @@ def obtener_region() -> str:
         # Retorna el contenido que se obtuvo de la petición
         return res.content.decode("utf-8")
     # Se devuelve un valor por defecto en caso de no entrar en el if
-    return "Monterrey"
+    return "Atlixco"
 
 
 def unidad_medida(unidad: str) -> str:
